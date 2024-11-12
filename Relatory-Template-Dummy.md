@@ -3,13 +3,13 @@
 ## 1. Dados Gerais do Incidente
 
 ### 1.1. Identificação do Incidente
-- **ID do Incidente**: [Preencher]
-- **Data de Início**: [Preencher]
-- **Data de Descoberta**: [Preencher]
-- **Data de Contenção**: [Preencher]
-- **Data de Resolução**: [Preencher]
-- **Tipo de Incidente**: [Exemplo: Espionagem Cibernética, Malware, Ataque APT, etc.]
-- **Categoria do Incidente**: [Exemplo: Espionagem, Ransomware, Phishing, etc.]
+- **Nome do Incidente**: Red October (2013)
+- **Data de Início**: 2007 (início estimado da campanha)
+- **Data de Descoberta**: 2013 (detectado pela Kaspersky Lab)
+- **Data de Contenção**: 2013
+- **Data de Resolução**: Entre 2013 e 2014
+- **Tipo de Incidente**: Espionagem Cibernética (APT - Advanced Persistent Threat)
+- **Categoria do Incidente**: Espionagem, Malware, Acesso Não Autorizado
 
 ### 1.2. Descrição Resumida
 - **Resumo do Incidente**:  
