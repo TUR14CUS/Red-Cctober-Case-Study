@@ -1,6 +1,6 @@
 # Red October Cybersecurity Incident Case Study
 
-This repository contains a comprehensive analysis of the **Red October** cyber espionage campaign, as part of the *Network Security* course at the **Instituto Superior de Tecnologias Avançadas de Lisboa** (ISTAL). This project was conducted by **Ricardo, Felix, Rodrigo, and Miguel**, under the guidance of Professor **Ivo Rosa**.
+This repository contains a comprehensive analysis of the **Red October** cyber espionage campaign, as part of the *Network Security* course at the **Instituto Superior de Tecnologias Avançadas de Lisboa** (ISTEC). This project was conducted by **Ricardo, Felix, Rodrigo, and Miguel**, under the guidance of Professor **Ivo Rosa**.
 
 The purpose of this study is to explore the key concepts of cybersecurity, understand the taxonomy of cyber incidents, and analyze the specific measures of containment, resolution, and recovery involved in dealing with the **Red October** attack.
 
