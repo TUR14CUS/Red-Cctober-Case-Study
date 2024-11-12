@@ -3,7 +3,7 @@
 ## 1. Dados Gerais do Incidente
 
 ### 1.1. Identificação do Incidente
-- **Nome do Incidente**: Red October (2013)
+- **Nome do Incidente**: Red October/Rocra
 - **Data de Início**: 2007 (início estimado da campanha)
 - **Data de Descoberta**: 2013 (detectado pela Kaspersky Lab)
 - **Data de Contenção**: 2013
