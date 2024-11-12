@@ -1,81 +1,102 @@
-# Planeamento da Apresentação sobre o Incidente Red October
+# Red October Cybersecurity Incident Case Study
 
-## Estrutura Geral da Apresentação (4 Elementos)
+This repository contains a comprehensive analysis of the **Red October** cyber espionage campaign, as part of the *Network Security* course at the **Instituto Superior de Tecnologias Avançadas de Lisboa** (ISTAL). This project was conducted by **Ricardo, Felix, Rodrigo, and Miguel**, under the guidance of Professor **Ivo Rosa**.
+
+The purpose of this study is to explore the key concepts of cybersecurity, understand the taxonomy of cyber incidents, and analyze the specific measures of containment, resolution, and recovery involved in dealing with the **Red October** attack.
+
+## Table of Contents
+
+1. [Introduction to Cybersecurity Basics](#1-introduction-to-cybersecurity-basics)
+2. [Taxonomy of Cyber Incidents and Threats](#2-taxonomy-of-cyber-incidents-and-threats)
+3. [The Red October Incident: Containment, Resolution, and Recovery](#3-the-red-october-incident-containment-resolution-and-recovery)
+4. [Lessons Learned and Security Analysis](#4-lessons-learned-and-security-analysis)
+5. [Conclusion](#5-conclusion)
+
+## 1. Introduction to Cybersecurity Basics
+
+**Presenter:** Felix
+
+In this section, we provide a foundational overview of cybersecurity to set the context for the **Red October** case study. The key topics covered include:
+
+- **Definition of Cybersecurity:** An explanation of what cybersecurity is and why it is essential in today's interconnected world.
+- **Core Concepts in Cybersecurity:**
+  - **Confidentiality, Integrity, and Availability (CIA):** These are the fundamental principles that guide cybersecurity efforts.
+  - **Network, System, and Data Security:** A breakdown of the primary areas where security measures are applied.
+- **Common Cyber Threats and Attacks:** A review of typical cyber threats such as malware, phishing, ransomware, and exploitation of vulnerabilities.
+- **Security Events and Incidents:** The difference between an event, a security incident, and a vulnerability, providing a framework for understanding various cyber events.
+
+## 2. Taxonomy of Cyber Incidents and Threats
+
+**Presenter:** Rodrigo
+
+This section covers the classification of security incidents and how they fit into the broader context of cybersecurity threats. Key points include:
+
+- **Cybersecurity Taxonomy:** Understanding the importance of categorizing incidents and threats for effective response and mitigation.
+- **Incident Classes:** Examples of different types of incidents such as malware, phishing, exploitation of vulnerabilities, and unauthorized access.
+- **Incident Types:** The distinction between various types of cyber incidents, such as **sabotage**, **espionage**, **fraud**, etc.
+- **Red October Case Study:** Identifying **Red October** as a targeted cyber espionage attack and categorizing it within the taxonomy of cybersecurity incidents.
+
+## 3. The Red October Incident: Containment, Resolution, and Recovery
+
+**Presenter:** Ricardo
+
+In this section, we delve into the practical aspects of handling a major cybersecurity incident like **Red October**, focusing on the steps of containment, resolution, and recovery. Topics include:
+
+- **Containment Measures:** 
+  - The importance of containing a security incident to prevent further damage.
+  - Suggested containment actions based on the characteristics of the **Red October** attack:
+    - **Isolating compromised networks and systems.**
+    - **Disconnecting affected machines.**
+    - **Changing credentials and blocking unauthorized access.**
+  
+- **Resolution Measures:**
+  - The steps required to resolve a cybersecurity incident and restore system integrity:
+    - **Malware analysis and removal.**
+    - **Patching security vulnerabilities.**
+    - **Auditing compromised systems to identify further weaknesses.**
+  
+- **Recovery Measures:**
+  - How to recover from a cyber attack and ensure systems return to full functionality:
+    - **Restoring systems and data.**
+    - **Verifying the integrity of restored data.**
+    - **Post-incident monitoring and security validation.**
+    - **Implementing improvements in security measures based on lessons learned.**
+
+## 4. Lessons Learned and Security Analysis
+
+**Presenter:** Miguel
+
+This section provides a detailed analysis of the **Red October** attack, including the key indicators of compromise (IOCs) and how they relate to core cybersecurity principles. Key points include:
+
+- **Examples of IOCs in the Red October Attack:**
+  1. **Suspicious IP addresses:** Identifying the IPs used by attackers to communicate with infected systems.
+  2. **Malicious file signatures (hashes):** Files used in the attack, with their hashes to detect malware presence.
+  3. **C&C (Command and Control) domains:** Domains registered by attackers to control the infected machines and exfiltrate data.
+  
+- **Security Principles Compromised:**
+  - **Confidentiality:** The espionage attack compromised sensitive information.
+  - **Integrity:** Possible alteration of data to cover up malicious activities.
+  - **Availability:** While the main goal of Red October wasn't service disruption, the attack could have affected system availability by compromising networks and devices.
+
+## 5. Conclusion
+
+**Presenter:** Rodrigo
+
+In this concluding section, we summarize the key findings of the Red October case study, highlighting the lessons learned from the incident:
+
+- **Key Takeaways:** Red October is a prime example of cyber espionage that exploited vulnerabilities in systems to exfiltrate sensitive data from various governments and organizations.
+- **Importance of Prevention and Continuous Monitoring:** The case emphasizes the need for robust preventative measures, constant vigilance, and proactive security monitoring to avoid similar attacks in the future.
+- **Improvement of Security Posture:** Based on the lessons learned, organizations can strengthen their defenses by enhancing incident detection, response capabilities, and by improving overall cybersecurity hygiene.
 
 ---
 
-### 1. Introdução às Bases de Cibersegurança (Felix)
-- **Objetivo:** Fornecer uma visão geral básica sobre cibersegurança para preparar o terreno antes de entrar no caso específico do **Red October**.
-- **Duração:** ~3 minutos
+## Contributors
 
-- **Tópicos a Cobrir:**
-  - **Definição de Cibersegurança:** O que é cibersegurança e qual a sua importância no contexto atual?
-  - **Principais Conceitos de Cibersegurança:**
-    - **Confidencialidade, Integridade e Disponibilidade (CID).**
-    - **Segurança de Redes, Sistemas e Dados.**
-  - **Tipos de Ameaças e Ataques Comuns:** Malware, Phishing, Ransomware, Exploração de Vulnerabilidades, etc.
-  - **Eventos e Incidentes de Segurança:**
-    - Distinção entre **evento**, **incidente de segurança** e **vulnerabilidade**.
+- **Ricardo** – Incident Response and Recovery Measures
+- **Felix** – Cybersecurity Basics and Concepts
+- **Rodrigo** – Taxonomy of Incidents and Conclusion
+- **Miguel** – IOC Analysis and Security Principles
 
----
+## Acknowledgements
 
-### 2. Taxonomia de Incidentes e Ciberameaças (Rodrigo)
-- **Objetivo:** Explicar como classificar eventos e incidentes de segurança, preparando para o entendimento do **Red October** dentro desse contexto.
-- **Duração:** ~3 minutos
-
-- **Tópicos a Cobrir:**
-  - **Taxonomia de Cibersegurança:**
-    - O que é taxonomia de cibersegurança e porquê é importante.
-    - **Classes de incidentes:** Exemplos de classes de incidentes (ex: Malware, Phishing, Exploração de Vulnerabilidade, Acesso Não Autorizado, etc.).
-    - **Tipos de ocorrências:** Incidentes de **sabotagem**, **espionagem**, **fraude**, etc.
-  - **O Caso Red October:**
-    - Identificar o **Red October** como um ataque direcionado à espionagem.
-    - Categorizar o **Red October** dentro da taxonomia**.
-
----
-
-### 3. O Incidente Red October: Medidas de Contenção, Resolução e Recuperação (Ricardo)
-- **Objetivo:** Detalhar como as medidas de contenção, resolução e recuperação poderiam ser implementadas com base nas informações do incidente **Red October**.
-- **Duração:** ~5 minutos
-
-- **Tópicos a Cobrir:**
-  - **Medidas de Contenção:**
-    - O que significa contenção de um incidente de segurança.
-    - Medidas sugeridas com base nas características do **Red October**:
-      - **Isolamento de redes e sistemas comprometidos.**
-      - **Desconexão de máquinas afectadas.**
-      - **Alteração de credenciais e bloqueio de acessos comprometidos.**
-  - **Medidas de Resolução:**
-    - O que é necessário para resolver um incidente de cibersegurança.
-    - Ações para erradicar o malware do sistema, como:
-      - **Análise e remoção de malware.**
-      - **Correção de falhas de segurança (patches, actualizações).**
-      - **Auditoria de sistemas comprometidos para detectar outras vulnerabilidades.**
-  - **Cuidados em Recuperação:**
-    - **Recuperação de sistemas e dados.**
-    - **Verificação da integridade dos dados restaurados.**
-    - **Monitorização pós-incidente e validação de segurança.**
-    - **Melhoria contínua das defesas com base no incidente.**
-
----
-
-### 4. Lições Aprendidas e Análise de Segurança (Miguel)
-- **Objetivo:** Apresentar os **Indicadores de Comprometimento (IOCs)** do incidente e relacioná-los aos princípios de segurança.
-- **Duração:** ~4 minutos
-
-- **Tópicos a Cobrir:**
-  - **Exemplos de IOCs no Caso Red October:**
-    1. **Endereços IP suspeitos**: Identificação de IPs usados para comunicação entre as máquinas infectadas e os servidores de comando e controlo.
-    2. **Assinaturas de ficheiros maliciosos (hashes)**: Ficheiros maliciosos usados no ataque, cujos hashes podem ser verificados para identificar a presença do malware.
-    3. **Domínios de C&C (comando e controlo)**: Domínios registados pelos atacantes para controlar os sistemas infectados (ex: domínios usados pelo malware para enviar dados roubados).
-  - **Princípios Básicos da Segurança de Informação Comprometidos:**
-    - Quais princípios de segurança foram violados no **Red October**:
-      1. **Confidencialidade:** A espionagem comprometeu a confidencialidade das informações sensíveis.
-      2. **Integridade:** Possível alteração de dados para encobrir a actividade maliciosa.
-      3. **Disponibilidade:** Embora o principal objectivo do Red October não tenha sido a interrupção de serviços, o ataque pode ter afectado a disponibilidade ao comprometer sistemas e redes.
-
----
-
-## Conclusão (Rodrigo)
-- **Resumo Final:** Reforçar os pontos chave discutidos sobre o **Red October**, destacando como o ataque é um exemplo de espionagem cibernética e as lições que podem ser aprendidas para melhorar a segurança.
-- **Conclusão das Medidas e Lições:** Reforçar a importância da **prevenção** e **monitorização contínua** para evitar ataques semelhantes.
+We would like to thank Professor **Ivo Rosa** for his guidance throughout the course, and for providing us with the opportunity to explore this fascinating and complex case study.
